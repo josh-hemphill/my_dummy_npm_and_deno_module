@@ -477,7 +477,7 @@
         "affectsGlobalScope": false
       },
       "../src/lib/cat.ts": {
-        "version": "773215d9243c03c75366c5ffa6b303a74274ec70c5e9276fa0e32b46633e055b",
+        "version": "286b52d62ff10b3d06f68eb2c1633c580f7b9f1e3829ca4524cf7f662b70ac73",
         "signature": "3977e8372901e3aa4238f79eef0617fc0297112ffea617d046942c7cc52da0db",
         "affectsGlobalScope": false
       },
@@ -978,6 +978,7 @@
       ],
       "../src/lib/cat.ts": [
         "../node_modules/@types/js-yaml/index.d.ts",
+        "../node_modules/@types/node/dns.d.ts",
         "../node_modules/@types/node/events.d.ts",
         "../node_modules/@types/node/path.d.ts",
         "../node_modules/left-pad/index.d.ts",

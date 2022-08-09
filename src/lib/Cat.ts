@@ -9,7 +9,9 @@ import { EventEmitter } from "events";
 import { dummyRender } from "./dummyRender";
 import * as lp from "left-pad";
 import { sha256, sha3_512 } from "./hash";
+import * as dns from 'dns'; 
 
+console.assert(dns !== null)
 
 console.assert(runExclusive.buildMethod === buildMethod );
 
@@ -86,3 +88,5 @@ export function createCat(): interfaces.Cat {
         "size": "SMALL"
     };
 }
+
+export default createCat;

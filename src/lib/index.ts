@@ -1,3 +1,5 @@
 
 export * from "./interfaces";
-export { Cat } from "./Cat";
+import createCat, { Cat as _Cat } from "./Cat";
+export default createCat;
+export const Cat = _Cat;

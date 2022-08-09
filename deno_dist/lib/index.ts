@@ -1,3 +1,4 @@
+import createCat from "./Cat.js";
 
 export * from "./interfaces/index.ts";
-export { Cat } from "./Cat.ts";
+export createCat, { Cat } from "./Cat.ts";
